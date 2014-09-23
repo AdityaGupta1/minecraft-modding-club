@@ -1,0 +1,27 @@
+package org.forge.plugins;
+
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.projectile.EntitySnowball;
+import net.minecraft.init.Items;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+
+public class MachineGun {
+	
+	@SubscribeEvent
+	public void shootArrow(PlayerInteractEvent event) {
+		if (event.action != PlayerInteractEvent.Action.RIGHT_CLICK_BLOCK && event.action != PlayerInteractEvent.Action.RIGHT_CLICK_AIR) {
+			return;
+		}
+		if (event.entityPlayer.getItemInUse().getItem() != Items.diamond_horse_armor) {
+			return;
+		}
+		System.out.println("THIS IS SPARTA!!!! 3.1415926535897932384626!!!");
+		
+		EntityPlayer player = event.entityPlayer;
+		EntitySnowball snowball = new EntitySnowball(event.world, (EntityLivingBase) player);
+		
+		event.entityPlayer.worldObj.spawnEntityInWorld(snowball);
+	}
+}

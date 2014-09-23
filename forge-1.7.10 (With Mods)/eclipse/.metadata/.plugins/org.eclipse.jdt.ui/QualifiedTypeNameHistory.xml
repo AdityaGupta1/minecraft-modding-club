@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="org.forge.plugins.EntityBigTNTPrimed"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntityArrow"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntitySnowball"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.util.EnumChatFormatting"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+</qualifiedTypeNameHistroy>

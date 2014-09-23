@@ -1,0 +1,154 @@
+[20:55:46] [main/INFO]: No arguments specified, assuming client.
+[20:55:46] [main/INFO]: Extra: []
+[20:55:47] [main/INFO]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Aditya/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[20:55:47] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:55:47] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:55:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:55:47] [main/INFO]: Forge Mod Loader version 7.10.18.1180 for Minecraft 1.7.10 loading
+[20:55:47] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_07, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_07\jre
+[20:55:47] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[20:55:47] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:55:47] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[20:55:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:55:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:55:47] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:55:47] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[20:55:49] [main/ERROR]: The minecraft jar file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[20:55:49] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[20:55:49] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[20:55:49] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[20:55:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:55:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[20:55:49] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[20:55:51] [main/INFO]: Setting user: ForgeDevName
+[20:55:53] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:55:53] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[20:55:53] [Client thread/INFO]: MinecraftForge v10.13.0.1180 Initialized
+[20:55:53] [Client thread/INFO]: Replaced 182 ore recipies
+[20:55:53] [Client thread/INFO]: Completed early MinecraftForge initialization
+[20:55:53] [Client thread/INFO]: Searching C:\Users\Aditya\Programming\minecraft-modding-club\forge-1.7.10 (With Mods)\eclipse\mods for mods
+[20:55:53] [Client thread/INFO]: Mod examplemod is missing the required element 'name'. Substituting examplemod
+[20:55:54] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[20:55:54] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.Start. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[20:55:56] [Client thread/INFO]: Forge Mod Loader has identified 6 mods to load
+[20:55:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod, FMLFileResourcePack:Example Mod
+[20:55:57] [Client thread/INFO]: Processing ObjectHolder annotations
+[20:55:57] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[20:55:57] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[20:55:57] [Client thread/INFO]: Applying holder lookups
+[20:55:57] [Client thread/INFO]: Holder lookups applied
+[20:55:57] [Sound Library Loader/INFO]: Sound engine started
+[20:56:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:56:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:56:00] [Client thread/INFO]: Forge Mod Loader has successfully loaded 6 mods
+[20:56:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod, FMLFileResourcePack:Example Mod
+[20:56:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:56:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:56:02] [Sound Library Loader/INFO]: Sound engine started
+[20:56:06] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:56:06] [Server thread/INFO]: Generating keypair
+[20:56:06] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[20:56:06] [Server thread/INFO]: Applying holder lookups
+[20:56:06] [Server thread/INFO]: Holder lookups applied
+[20:56:06] [Server thread/INFO]: Loading dimension 0 (Test) (net.minecraft.server.integrated.IntegratedServer@5b04669)
+[20:56:06] [Server thread/INFO]: Loading dimension 1 (Test) (net.minecraft.server.integrated.IntegratedServer@5b04669)
+[20:56:06] [Server thread/INFO]: Loading dimension -1 (Test) (net.minecraft.server.integrated.IntegratedServer@5b04669)
+[20:56:06] [Server thread/INFO]: Preparing start region for level 0
+[20:56:07] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:56:08] [Netty Client IO #0/INFO]: Server protocol version 1
+[20:56:08] [Netty IO #1/INFO]: Client protocol version 1
+[20:56:08] [Netty IO #1/INFO]: Client attempting to join with 6 mods : Magicalness@1.0,Moreland@1.0,mcp@9.05,FML@7.10.18.1180,examplemod@1.0,Forge@10.13.0.1180
+[20:56:08] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[20:56:08] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[20:56:08] [Client thread/INFO]: [Client thread] Client side modded connection established
+[20:56:08] [Server thread/INFO]: [Server thread] Server side modded connection established
+[20:56:08] [Server thread/INFO]: ForgeDevName[local:E:3a5c9e6d] logged in with entity id 222 at (1577.658970526843, 6.529367595578465, 254.24787550438816)
+[20:56:08] [Server thread/INFO]: ForgeDevName joined the game
+[20:57:04] [Server thread/INFO]: [ForgeDevName: Set the time to 18000]
+[20:57:04] [Client thread/INFO]: [CHAT] Set the time to 18000
+[20:57:10] [Server thread/INFO]: [ForgeDevName: Given Night Vision (ID 16) * 1 to ForgeDevName for 1000000 seconds]
+[20:57:10] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 1 to ForgeDevName for 1000000 seconds
+[20:57:33] [Server thread/INFO]: Saving and pausing game...
+[20:57:33] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[20:57:34] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[20:57:34] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[20:58:31] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 7 items]
+[20:58:31] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 7 items
+[20:59:13] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[20:59:14] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 192 items]
+[20:59:14] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 192 items
+[21:00:27] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[21:00:27] [Client thread/INFO]: [CHAT] doDaylightCycle = false
+[21:01:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2098ms behind, skipping 41 tick(s)
+[21:01:33] [Server thread/INFO]: Saving and pausing game...
+[21:01:33] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[21:01:33] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[21:01:33] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[21:01:44] [Server thread/INFO]: Saving and pausing game...
+[21:01:44] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[21:01:44] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[21:01:44] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[21:01:47] [Server thread/INFO]: Saving and pausing game...
+[21:01:47] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[21:01:47] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[21:01:47] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[21:02:00] [Server thread/INFO]: [ForgeDevName: Given Speed (ID 1) * 100 to ForgeDevName for 1000000 seconds]
+[21:02:00] [Client thread/INFO]: [CHAT] Given Speed (ID 1) * 100 to ForgeDevName for 1000000 seconds
+[21:02:14] [Server thread/INFO]: [ForgeDevName: Took all effects from ForgeDevName]
+[21:02:14] [Client thread/INFO]: [CHAT] Took all effects from ForgeDevName
+[21:02:20] [Server thread/INFO]: [ForgeDevName: Given Night Vision (ID 16) * 1 to ForgeDevName for 1000000 seconds]
+[21:02:20] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 1 to ForgeDevName for 1000000 seconds
+[21:02:31] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 49 items]
+[21:02:31] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 49 items
+[21:04:12] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[21:04:14] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 2 items]
+[21:04:14] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 2 items
+[21:05:01] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 110 items]
+[21:05:01] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 110 items
+[21:05:47] [Server thread/INFO]: Saving and pausing game...
+[21:05:47] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[21:05:47] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[21:05:47] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[21:06:12] [Server thread/INFO]: Saving and pausing game...
+[21:06:12] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[21:06:12] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[21:06:12] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[21:06:31] [Server thread/INFO]: Saving and pausing game...
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[21:06:31] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[21:07:41] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[21:07:42] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 64 items]
+[21:07:42] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 64 items
+[21:08:55] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 1 items]
+[21:08:55] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 1 items
+[21:13:27] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 4 items]
+[21:13:28] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 4 items
+[21:14:05] [Server thread/INFO]: Saving and pausing game...
+[21:14:05] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[21:14:05] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[21:14:05] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[21:15:55] [Server thread/INFO]: [ForgeDevName: Given Speed (ID 1) * 100 to ForgeDevName for 1000000 seconds]
+[21:15:55] [Client thread/INFO]: [CHAT] Given Speed (ID 1) * 100 to ForgeDevName for 1000000 seconds
+[21:16:08] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 1 items]
+[21:16:08] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 1 items
+[21:16:11] [Server thread/INFO]: [ForgeDevName: Took all effects from ForgeDevName]
+[21:16:11] [Client thread/INFO]: [CHAT] Took all effects from ForgeDevName
+[21:16:16] [Server thread/INFO]: [ForgeDevName: Given Night Vision (ID 16) * 100 to ForgeDevName for 1000000 seconds]
+[21:16:16] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 100 to ForgeDevName for 1000000 seconds
+[21:16:52] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 1 items]
+[21:16:52] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 1 items
+[21:17:11] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 1 items]
+[21:17:11] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 1 items
+[21:17:26] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 32 items]
+[21:17:26] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 32 items
+[21:17:37] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 5 items]
+[21:17:37] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 5 items
+[21:17:41] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 64 items]
+[21:17:41] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 64 items
+[21:18:31] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 63 items]
+[21:18:31] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 63 items
+[21:18:36] [Server thread/INFO]: Saving and pausing game...
+[21:18:36] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[21:18:36] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[21:18:36] [Server thread/INFO]: Saving chunks for level 'Test'/The End

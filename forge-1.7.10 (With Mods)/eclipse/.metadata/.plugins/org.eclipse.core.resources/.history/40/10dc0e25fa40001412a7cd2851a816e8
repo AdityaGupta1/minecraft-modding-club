@@ -1,0 +1,25 @@
+package org.forge.plugins;
+
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityTNTPrimed;
+import net.minecraft.world.World;
+import net.minecraftforge.event.entity.EntityJoinWorldEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+
+public class BiggerTNTExplosions {
+	int power = 16;
+
+	@SubscribeEvent
+	public void makeExplosion(EntityJoinWorldEvent event) {
+		if (!(event.entity instanceof EntityTNTPrimed)) {
+			return;
+		}
+		
+		Entity entity = event.entity;
+		World world = entity.worldObj;
+		world.tick();
+		
+		entity.worldObj.createExplosion(entity, entity.posX, entity.posY,
+				entity.posZ, power, true);
+	}
+}
