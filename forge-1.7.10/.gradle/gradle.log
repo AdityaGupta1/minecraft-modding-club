@@ -7,6 +7,26 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:extractUserDev
+Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.0.1180/forge-1.7.10-10.13.0.1180-userdev.jar
+:mergeJars SKIPPED
+:applyBinPatches
+:downloadMcpTools
+:extractMcpData
+:genSrgs
+:deobfBinJar
+Applying SpecialSource...
+Applying Exceptor...
+Stripping synthetics...
+:extractNatives
+:getAssetsIndex
+:getAssets
+:makeStartwarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:setupDevWorkspace
 :eclipseClasspath
 :eclipseJdt
 :eclipseProject
@@ -14,4 +34,4 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
 
 BUILD SUCCESSFUL
 
-Total time: 24.397 secs
+Total time: 1 mins 34.29 secs
