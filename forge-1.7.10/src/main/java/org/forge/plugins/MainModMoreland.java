@@ -26,6 +26,7 @@ public class MainModMoreland {
 		// MinecraftForge.EVENT_BUS.register(new BlockMoney());
         // MinecraftForge.EVENT_BUS.register(new AwardTNTAchievement());
         // MinecraftForge.EVENT_BUS.register(new PlayerEntryExit());
+		// MinecraftForge.EVENT_BUS.register(new PlayerWelcome());
 		MinecraftForge.EVENT_BUS.register(new ZombieDroppingDiamonds());
 		MinecraftForge.EVENT_BUS.register(new RottenFleshZombie());
 	}
