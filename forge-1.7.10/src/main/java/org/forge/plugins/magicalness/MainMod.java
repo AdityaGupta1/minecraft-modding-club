@@ -1,12 +1,8 @@
 package org.forge.plugins.magicalness;
 
-import org.forge.plugins.BiggerTNTExplosions;
-import org.forge.plugins.BlockMoney;
-import org.forge.plugins.PlayerEntryExit;
-import org.forge.plugins.ZombieDroppingDiamonds;
-
 import net.minecraft.block.Block;
 import net.minecraft.client.model.ModelBiped;
+import net.minecraft.client.model.ModelBlaze;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityList;
@@ -19,12 +15,10 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.biome.BiomeGenBase;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.util.EnumHelper;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -166,7 +160,8 @@ public class MainMod {
 		GameRegistry.registerWorldGenerator(new WorldGeneratorMagic(), 0);
 
 		// Entities
-
+		
+		//   Miner
 		EntityRegistry.registerModEntity(EntityMiner.class, "Miner", 5, this,
 				100, 10, true);
 		RenderingRegistry.registerEntityRenderingHandler(EntityMiner.class,
