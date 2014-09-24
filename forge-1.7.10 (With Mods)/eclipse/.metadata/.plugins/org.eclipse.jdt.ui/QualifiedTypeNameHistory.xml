@@ -11,12 +11,20 @@
 <fullyQualifiedTypeName name="net.minecraftforge.common.AchievementPage"/>
 <fullyQualifiedTypeName name="org.forge.plugins.RottenFleshZombie"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
-<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
-<fullyQualifiedTypeName name="net.minecraft.util.EnumChatFormatting"/>
 <fullyQualifiedTypeName name="net.minecraft.util.ChatComponentText"/>
 <fullyQualifiedTypeName name="org.forge.plugins.PlayerWelcome"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.gameevent.PlayerEvent"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent"/>
 <fullyQualifiedTypeName name="org.forge.plugins.ExplodeJoin"/>
+<fullyQualifiedTypeName name="org.forge.plugins.PlayerEntryExit"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="org.forge.plugins.ArmoredZombieReinforcements"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.eventhandler.Event"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.eventhandler.Event.Result"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
+<fullyQualifiedTypeName name="net.minecraft.util.EnumChatFormatting"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.monster.EntitySkeleton"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.monster.EntityZombie"/>
 </qualifiedTypeNameHistroy>
