@@ -1,11 +1,7 @@
 package org.forge.plugins;
 
-import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemStack;
-import net.minecraft.stats.Achievement;
-import net.minecraft.stats.AchievementList;
-import net.minecraftforge.common.AchievementPage;
 import net.minecraftforge.common.MinecraftForge;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -25,9 +21,10 @@ public class MainModMoreland {
 		// MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
 		// MinecraftForge.EVENT_BUS.register(new BlockMoney());
         // MinecraftForge.EVENT_BUS.register(new AwardTNTAchievement());
-        // MinecraftForge.EVENT_BUS.register(new PlayerEntryExit());
 		// MinecraftForge.EVENT_BUS.register(new PlayerWelcome());
 		MinecraftForge.EVENT_BUS.register(new ZombieDroppingDiamonds());
 		MinecraftForge.EVENT_BUS.register(new RottenFleshZombie());
+		FMLCommonHandler.instance().bus().register(new ExplodeJoin());
+		FMLCommonHandler.instance().bus().register(new PlayerEntryExit());
 	}
 }

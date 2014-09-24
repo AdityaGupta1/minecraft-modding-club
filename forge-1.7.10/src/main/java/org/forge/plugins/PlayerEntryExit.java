@@ -7,12 +7,12 @@ import cpw.mods.fml.common.gameevent.PlayerEvent;
 
 public class PlayerEntryExit {
 	@SubscribeEvent
-    public void init(PlayerEvent.PlayerLoggedInEvent event) {
-    	System.out.println(event.player.getGameProfile().getName() + " logged in");
+    public void logIn(PlayerEvent.PlayerLoggedInEvent event) {
+    	System.out.println(event.player.getGameProfile().getName() + " logged in.");
     }
 
 	@SubscribeEvent
-    public void init(PlayerEvent.PlayerLoggedOutEvent event) {
-    	System.out.println(event.player.getGameProfile().getName() + " logged out");
+    public void logOut(PlayerEvent.PlayerLoggedOutEvent event) {
+    	System.out.println(event.player.getGameProfile().getName() + " logged out.");
     }
 }

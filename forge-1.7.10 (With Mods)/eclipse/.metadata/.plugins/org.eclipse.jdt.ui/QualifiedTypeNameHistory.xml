@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 <fullyQualifiedTypeName name="org.forge.plugins.EntityBigTNTPrimed"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntityArrow"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntitySnowball"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
-<fullyQualifiedTypeName name="net.minecraft.util.EnumChatFormatting"/>
+<fullyQualifiedTypeName name="net.minecraft.stats.Achievement"/>
+<fullyQualifiedTypeName name="net.minecraft.stats.AchievementList"/>
+<fullyQualifiedTypeName name="org.forge.plugins.AwardTNTAchievement"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.AchievementPage"/>
+<fullyQualifiedTypeName name="org.forge.plugins.RottenFleshZombie"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="net.minecraft.util.EnumChatFormatting"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ChatComponentText"/>
+<fullyQualifiedTypeName name="org.forge.plugins.PlayerWelcome"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.gameevent.PlayerEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent"/>
+<fullyQualifiedTypeName name="org.forge.plugins.ExplodeJoin"/>
 </qualifiedTypeNameHistroy>
