@@ -18,13 +18,19 @@ public class MainModMoreland {
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
+		// Not Working
 		// MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
 		// MinecraftForge.EVENT_BUS.register(new BlockMoney());
         // MinecraftForge.EVENT_BUS.register(new AwardTNTAchievement());
 		// MinecraftForge.EVENT_BUS.register(new PlayerWelcome());
+		
+		// Disabled
+		// FMLCommonHandler.instance().bus().register(new ExplodeJoin());
+		
+		// Working
+		FMLCommonHandler.instance().bus().register(new PlayerEntryExit());
 		MinecraftForge.EVENT_BUS.register(new ZombieDroppingDiamonds());
 		MinecraftForge.EVENT_BUS.register(new RottenFleshZombie());
-		FMLCommonHandler.instance().bus().register(new ExplodeJoin());
-		FMLCommonHandler.instance().bus().register(new PlayerEntryExit());
+		MinecraftForge.EVENT_BUS.register(new ZombieKnights());
 	}
 }
