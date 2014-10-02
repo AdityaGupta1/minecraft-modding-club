@@ -173,11 +173,26 @@ public class MainMod {
 		EntityRegistry.addSpawn(EntityMiner.class, 3, 1, 3,
 				EnumCreatureType.monster, BiomeGenBase.plains,
 				BiomeGenBase.forest, BiomeGenBase.desert, BiomeGenBase.taiga,
-				BiomeGenBase.extremeHills);
+				BiomeGenBase.extremeHills);	
+		
+		//   Thing
+			EntityRegistry.registerModEntity(EntityThing.class, "Thing", 6, this,
+					100, 10, true);
+			RenderingRegistry.registerEntityRenderingHandler(EntityThing.class,
+					new RenderEntityThing(new ModelThing(), 0.4F));
+
+			LanguageRegistry.instance().addStringLocalization(
+					"entity.Magicalness.Thing.name", "Thing");
+
+			EntityRegistry.addSpawn(EntityThing.class, 3, 1, 3,
+					EnumCreatureType.ambient, BiomeGenBase.plains,
+					BiomeGenBase.forest, BiomeGenBase.desert, BiomeGenBase.taiga,
+					BiomeGenBase.extremeHills);	
 
 		// Spawn Eggs
 
 		registerEntityEgg(EntityMiner.class, 0x20E824, 0x0012D9);
+		registerEntityEgg(EntityThing.class, 0x80A0D1, 0x265358);
 	}
 
 	public static int getUniqueEntityId() {

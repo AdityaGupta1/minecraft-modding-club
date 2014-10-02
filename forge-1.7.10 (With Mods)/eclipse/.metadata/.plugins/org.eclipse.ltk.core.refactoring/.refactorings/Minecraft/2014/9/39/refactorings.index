@@ -6,3 +6,9 @@
 1411532021089	Rename type 'ArmoredZombieReinforcements'
 1411534602417	Copy compilation units
 1411535097548	Delete elements
+1411597502933	Copy compilation units
+1411598948172	Delete elements
+1411599634357	Rename type 'RenderEntityThing'
+1411599811083	Delete element
+1411602239027	Delete element
+1411602254356	Rename package 'org.forge.plugins'

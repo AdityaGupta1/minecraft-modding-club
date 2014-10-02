@@ -27,4 +27,8 @@
 <fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.monster.EntitySkeleton"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.monster.EntityZombie"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.monster.EntityMob"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.passive.EntityAnimal"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
 </qualifiedTypeNameHistroy>

@@ -1,104 +1,46 @@
-[22:04:15] [main/INFO]: No arguments specified, assuming client.
-[22:04:15] [main/INFO]: Extra: []
-[22:04:15] [main/INFO]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Aditya/.gradle/caches/minecraft/assets, --version, 1.7.10]
-[22:04:15] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[22:04:15] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[22:04:15] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[22:04:15] [main/INFO]: Forge Mod Loader version 7.10.18.1180 for Minecraft 1.7.10 loading
-[22:04:15] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_07, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_07\jre
-[22:04:15] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[22:04:15] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:04:15] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[22:04:15] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:04:15] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:04:15] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:04:16] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[22:04:17] [main/ERROR]: The minecraft jar file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
-[22:04:17] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
-[22:04:17] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
-[22:04:17] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[22:04:17] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:04:17] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[22:04:18] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[22:04:20] [main/INFO]: Setting user: ForgeDevName
-[22:04:21] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:04:22] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[22:04:22] [Client thread/INFO]: MinecraftForge v10.13.0.1180 Initialized
-[22:04:22] [Client thread/INFO]: Replaced 182 ore recipies
-[22:04:22] [Client thread/INFO]: Completed early MinecraftForge initialization
-[22:04:22] [Client thread/INFO]: Searching C:\Users\Aditya\Programming\minecraft-modding-club\forge-1.7.10 (With Mods)\eclipse\mods for mods
-[22:04:22] [Client thread/INFO]: Mod examplemod is missing the required element 'name'. Substituting examplemod
-[22:04:23] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[22:04:23] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.Start. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[22:04:25] [Client thread/INFO]: Forge Mod Loader has identified 6 mods to load
-[22:04:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
-[22:04:26] [Client thread/INFO]: Processing ObjectHolder annotations
-[22:04:26] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[22:04:26] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[22:04:26] [Client thread/INFO]: Applying holder lookups
-[22:04:26] [Client thread/INFO]: Holder lookups applied
-[22:04:27] [Sound Library Loader/INFO]: Sound engine started
-[22:04:29] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:04:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:04:29] [Client thread/INFO]: Forge Mod Loader has successfully loaded 6 mods
-[22:04:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:examplemod, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
-[22:04:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:04:29] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:04:30] [Sound Library Loader/INFO]: Sound engine started
-[22:04:36] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[22:04:36] [Server thread/INFO]: Generating keypair
-[22:04:37] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[22:04:37] [Server thread/INFO]: Applying holder lookups
-[22:04:37] [Server thread/INFO]: Holder lookups applied
-[22:04:37] [Server thread/INFO]: Loading dimension 0 (Test) (net.minecraft.server.integrated.IntegratedServer@7df8fc8c)
-[22:04:37] [Server thread/INFO]: Loading dimension 1 (Test) (net.minecraft.server.integrated.IntegratedServer@7df8fc8c)
-[22:04:37] [Server thread/INFO]: Loading dimension -1 (Test) (net.minecraft.server.integrated.IntegratedServer@7df8fc8c)
-[22:04:37] [Server thread/INFO]: Preparing start region for level 0
-[22:04:38] [Netty Client IO #0/INFO]: Server protocol version 1
-[22:04:38] [Netty IO #1/INFO]: Client protocol version 1
-[22:04:38] [Netty IO #1/INFO]: Client attempting to join with 6 mods : Magicalness@1.0,Moreland@1.0,mcp@9.05,FML@7.10.18.1180,examplemod@1.0,Forge@10.13.0.1180
-[22:04:38] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[22:04:38] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[22:04:38] [Server thread/INFO]: [Server thread] Server side modded connection established
-[22:04:38] [Client thread/INFO]: [Client thread] Client side modded connection established
-[22:04:38] [Server thread/INFO]: ForgeDevName[local:E:2a7358b3] logged in with entity id 200 at (97.62390805716721, 6.529367595578465, 1001.8315416176889)
-[22:04:38] [Server thread/INFO]: ForgeDevName joined the game
-[22:04:43] [Server thread/INFO]: Stopping server
-[22:04:43] [Server thread/INFO]: Saving players
-[22:04:43] [Server thread/INFO]: Saving worlds
-[22:04:43] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[22:04:43] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[22:04:43] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[22:04:43] [Server thread/INFO]: Unloading dimension 0
-[22:04:43] [Server thread/INFO]: Unloading dimension -1
-[22:04:43] [Server thread/INFO]: Unloading dimension 1
-[22:04:43] [Server thread/INFO]: Applying holder lookups
-[22:04:43] [Server thread/INFO]: Holder lookups applied
-[22:04:44] [Client thread/FATAL]: Reported exception thrown!
-net.minecraft.util.ReportedException: Rendering entity in world
-	at net.minecraft.client.renderer.entity.RenderManager.func_147939_a(RenderManager.java:339) ~[RenderManager.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:271) ~[RenderManager.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.renderEntitySimple(RenderManager.java:244) ~[RenderManager.class:?]
-	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:471) ~[RenderGlobal.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1224) ~[EntityRenderer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1011) ~[EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:989) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:887) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_07]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_07]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_07]
-	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_07]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_07]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_07]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_07]
-	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_07]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:55) [start/:?]
-Caused by: java.lang.ClassCastException: org.forge.plugins.magicalness.EntityMiner cannot be cast to net.minecraft.entity.monster.EntityBlaze
-	at org.forge.plugins.magicalness.RenderEntityFrost.doRender(RenderEntityFrost.java:69) ~[RenderEntityFrost.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.func_147939_a(RenderManager.java:293) ~[RenderManager.class:?]
-	... 21 more
+[17:15:45] [main/INFO]: No arguments specified, assuming client.
+[17:15:45] [main/INFO]: Extra: []
+[17:15:45] [main/INFO]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Aditya/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[17:15:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:15:45] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:15:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:15:45] [main/INFO]: Forge Mod Loader version 7.10.18.1180 for Minecraft 1.7.10 loading
+[17:15:45] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_07, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_07\jre
+[17:15:45] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:15:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:15:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:15:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:15:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:15:45] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:15:45] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[17:15:47] [main/ERROR]: The minecraft jar file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[17:15:47] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[17:15:47] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[17:15:47] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[17:15:47] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:15:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:15:48] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:15:50] [main/INFO]: Setting user: ForgeDevName
+[17:15:52] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:15:55] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[17:15:55] [Client thread/INFO]: MinecraftForge v10.13.0.1180 Initialized
+[17:15:55] [Client thread/INFO]: Replaced 182 ore recipies
+[17:15:55] [Client thread/INFO]: Completed early MinecraftForge initialization
+[17:15:56] [Client thread/INFO]: Searching C:\Users\Aditya\Programming\minecraft-modding-club\forge-1.7.10 (With Mods)\eclipse\mods for mods
+[17:15:58] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[17:15:58] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.Start. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[17:16:00] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
+[17:16:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
+[17:16:01] [Client thread/INFO]: Processing ObjectHolder annotations
+[17:16:01] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[17:16:01] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[17:16:01] [Client thread/INFO]: Applying holder lookups
+[17:16:01] [Client thread/INFO]: Holder lookups applied
+[17:16:02] [Sound Library Loader/INFO]: Sound engine started
+[17:16:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:16:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:16:11] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[17:16:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
+[17:16:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:16:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:16:12] [Sound Library Loader/INFO]: Sound engine started

@@ -61,7 +61,7 @@ public class EntityMiner extends EntityMob {
 	{
 	super.applyEntityAttributes();
 	this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(50.0D);
-	this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.4317D);
+	this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.25D);
 	this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(5.0D);
 	this.getEntityAttribute(SharedMonsterAttributes.followRange).setBaseValue(100.0D);
 	}
