@@ -9,8 +9,6 @@ import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
 public class ZombieDroppingDiamonds {
-	int power = 20;
-
 	@SubscribeEvent
 	public void dropDiamonds(LivingDeathEvent event) {
 		if (!(event.entity instanceof EntityZombie)) {

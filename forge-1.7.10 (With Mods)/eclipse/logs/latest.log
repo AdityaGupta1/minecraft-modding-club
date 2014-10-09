@@ -1,146 +1,115 @@
-[18:09:21] [main/INFO]: No arguments specified, assuming client.
-[18:09:21] [main/INFO]: Extra: []
-[18:09:22] [main/INFO]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Aditya/.gradle/caches/minecraft/assets, --version, 1.7.10]
-[18:09:22] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[18:09:22] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[18:09:22] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[18:09:22] [main/INFO]: Forge Mod Loader version 7.10.18.1180 for Minecraft 1.7.10 loading
-[18:09:22] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_07, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_07\jre
-[18:09:22] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[18:09:22] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:09:22] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[18:09:22] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:09:22] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:09:22] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:09:22] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[18:09:24] [main/ERROR]: The minecraft jar file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
-[18:09:24] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
-[18:09:24] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
-[18:09:24] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[18:09:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:09:24] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[18:09:25] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[18:09:27] [main/INFO]: Setting user: ForgeDevName
-[18:09:28] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:09:29] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[18:09:29] [Client thread/INFO]: MinecraftForge v10.13.0.1180 Initialized
-[18:09:29] [Client thread/INFO]: Replaced 182 ore recipies
-[18:09:29] [Client thread/INFO]: Completed early MinecraftForge initialization
-[18:09:29] [Client thread/INFO]: Searching C:\Users\Aditya\Programming\minecraft-modding-club\forge-1.7.10 (With Mods)\eclipse\mods for mods
-[18:09:30] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[18:09:30] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.Start. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[18:09:32] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
-[18:09:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
-[18:09:32] [Client thread/INFO]: Processing ObjectHolder annotations
-[18:09:32] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[18:09:32] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[18:09:32] [Client thread/INFO]: Applying holder lookups
-[18:09:32] [Client thread/INFO]: Holder lookups applied
-[18:09:33] [Sound Library Loader/INFO]: Sound engine started
-[18:09:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:09:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:09:36] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
-[18:09:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
-[18:09:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:09:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:09:38] [Sound Library Loader/INFO]: Sound engine started
-[18:09:45] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:09:45] [Server thread/INFO]: Generating keypair
-[18:09:45] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[18:09:45] [Server thread/INFO]: Applying holder lookups
-[18:09:45] [Server thread/INFO]: Holder lookups applied
-[18:09:45] [Server thread/INFO]: Loading dimension 0 (Test) (net.minecraft.server.integrated.IntegratedServer@599d96bf)
-[18:09:45] [Server thread/INFO]: Loading dimension 1 (Test) (net.minecraft.server.integrated.IntegratedServer@599d96bf)
-[18:09:45] [Server thread/INFO]: Loading dimension -1 (Test) (net.minecraft.server.integrated.IntegratedServer@599d96bf)
-[18:09:45] [Server thread/INFO]: Preparing start region for level 0
-[18:09:52] [Server thread/INFO]: Stopping server
-[18:09:52] [Server thread/INFO]: Saving players
-[18:09:52] [Server thread/INFO]: Saving worlds
-[18:09:52] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[18:09:52] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[18:09:52] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[18:09:52] [Server thread/INFO]: Unloading dimension 0
-[18:09:52] [Server thread/INFO]: Unloading dimension -1
-[18:09:52] [Server thread/INFO]: Unloading dimension 1
-[18:09:52] [Server thread/INFO]: Applying holder lookups
-[18:09:52] [Server thread/INFO]: Holder lookups applied
-[18:09:52] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:09:52] [Server thread/INFO]: Generating keypair
-[18:09:52] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[18:09:52] [Server thread/INFO]: Applying holder lookups
-[18:09:52] [Server thread/INFO]: Holder lookups applied
-[18:09:52] [Server thread/INFO]: Loading dimension 0 (Test) (net.minecraft.server.integrated.IntegratedServer@1827b2ec)
-[18:09:52] [Server thread/INFO]: Loading dimension 1 (Test) (net.minecraft.server.integrated.IntegratedServer@1827b2ec)
-[18:09:52] [Server thread/INFO]: Loading dimension -1 (Test) (net.minecraft.server.integrated.IntegratedServer@1827b2ec)
-[18:09:52] [Server thread/INFO]: Preparing start region for level 0
-[18:09:53] [Netty Client IO #1/INFO]: Server protocol version 1
-[18:09:53] [Netty IO #3/INFO]: Client protocol version 1
-[18:09:53] [Netty IO #3/INFO]: Client attempting to join with 5 mods : Magicalness@1.0,Moreland@1.0,mcp@9.05,FML@7.10.18.1180,Forge@10.13.0.1180
-[18:09:53] [Netty IO #3/INFO]: Attempting connection with missing mods [] at CLIENT
-[18:09:53] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
-[18:09:53] [Server thread/INFO]: [Server thread] Server side modded connection established
-[18:09:53] [Server thread/INFO]: ForgeDevName[local:E:9bb3ecea] logged in with entity id 394 at (330.8023519789621, 6.904149094818003, 563.709007892756)
-[18:09:53] [Server thread/INFO]: ForgeDevName joined the game
-[18:09:53] [Client thread/INFO]: [Client thread] Client side modded connection established
-[18:09:54] [Client thread/WARN]: Failed to load texture: magicalness:textures/mobs/thing.png
-java.io.FileNotFoundException: magicalness:textures/mobs/thing.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SourceFile:55) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.minecraft.client.renderer.entity.Render.bindTexture(SourceFile:51) [Render.class:?]
-	at net.minecraft.client.renderer.entity.Render.bindEntityTexture(SourceFile:47) [Render.class:?]
-	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderModel(RendererLivingEntity.java:286) [RendererLivingEntity.class:?]
-	at net.minecraft.client.renderer.entity.RendererLivingEntity.doRender(RendererLivingEntity.java:149) [RendererLivingEntity.class:?]
-	at net.minecraft.client.renderer.entity.RenderLiving.doRender(SourceFile:23) [RenderLiving.class:?]
-	at net.minecraft.client.renderer.entity.RenderLiving.doRender(SourceFile:11) [RenderLiving.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.func_147939_a(RenderManager.java:293) [RenderManager.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:271) [RenderManager.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.renderEntitySimple(RenderManager.java:244) [RenderManager.class:?]
-	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:471) [RenderGlobal.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1224) [EntityRenderer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1011) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:989) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:887) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_07]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_07]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_07]
-	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_07]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_07]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_07]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_07]
-	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_07]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:55) [start/:?]
-[18:10:03] [Server thread/INFO]: Saving and pausing game...
-[18:10:03] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[18:10:03] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[18:10:03] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[18:10:09] [Server thread/INFO]: Saving and pausing game...
-[18:10:09] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[18:10:09] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[18:10:09] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[18:11:38] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
-[18:11:38] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[18:11:39] [Server thread/INFO]: ForgeDevName was blown up by Creeper
-[18:11:39] [Client thread/INFO]: [CHAT] ForgeDevName was blown up by Creeper
-[18:11:41] [Server thread/INFO]: [ForgeDevName: Set own game mode to Creative Mode]
-[18:11:41] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[18:11:44] [Server thread/INFO]: Saving and pausing game...
-[18:11:44] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[18:11:44] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[18:11:44] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[18:11:45] [Client thread/INFO]: Stopping!
-[18:11:45] [Server thread/INFO]: Stopping server
-[18:11:45] [Server thread/INFO]: Saving players
-[18:11:45] [Server thread/INFO]: Saving worlds
-[18:11:45] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[18:11:45] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[18:11:45] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[18:11:45] [Client Shutdown Thread/INFO]: Stopping server
-[18:11:45] [Client Shutdown Thread/INFO]: Saving players
+[16:32:29] [main/INFO]: No arguments specified, assuming client.
+[16:32:29] [main/INFO]: Extra: []
+[16:32:29] [main/INFO]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Aditya/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[16:32:29] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:32:30] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:32:30] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:32:30] [main/INFO]: Forge Mod Loader version 7.10.18.1180 for Minecraft 1.7.10 loading
+[16:32:30] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_07, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_07\jre
+[16:32:30] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[16:32:30] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:32:30] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:32:30] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:32:30] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:32:30] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:32:30] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[16:32:32] [main/ERROR]: The minecraft jar file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[16:32:32] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[16:32:32] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Aditya/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeBin-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[16:32:32] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[16:32:32] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:32:32] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:32:32] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:32:34] [main/INFO]: Setting user: ForgeDevName
+[16:32:35] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:32:37] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[16:32:37] [Client thread/INFO]: MinecraftForge v10.13.0.1180 Initialized
+[16:32:37] [Client thread/INFO]: Replaced 182 ore recipies
+[16:32:37] [Client thread/INFO]: Completed early MinecraftForge initialization
+[16:32:38] [Client thread/INFO]: Searching C:\Users\Aditya\Programming\minecraft-modding-club\forge-1.7.10 (With Mods)\eclipse\mods for mods
+[16:32:39] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[16:32:39] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.Start. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[16:32:40] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
+[16:32:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
+[16:32:41] [Client thread/INFO]: Processing ObjectHolder annotations
+[16:32:41] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[16:32:41] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[16:32:41] [Client thread/INFO]: Applying holder lookups
+[16:32:41] [Client thread/INFO]: Holder lookups applied
+[16:32:42] [Sound Library Loader/INFO]: Sound engine started
+[16:32:46] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:32:46] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:32:46] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[16:32:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
+[16:32:47] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:32:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:32:48] [Sound Library Loader/INFO]: Sound engine started
+[16:33:00] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:33:00] [Server thread/INFO]: Generating keypair
+[16:33:00] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:33:00] [Server thread/INFO]: Applying holder lookups
+[16:33:00] [Server thread/INFO]: Holder lookups applied
+[16:33:00] [Server thread/INFO]: Loading dimension 0 (Test) (net.minecraft.server.integrated.IntegratedServer@4ce1c495)
+[16:33:01] [Server thread/INFO]: Loading dimension 1 (Test) (net.minecraft.server.integrated.IntegratedServer@4ce1c495)
+[16:33:01] [Server thread/INFO]: Loading dimension -1 (Test) (net.minecraft.server.integrated.IntegratedServer@4ce1c495)
+[16:33:01] [Server thread/INFO]: Preparing start region for level 0
+[16:33:02] [Netty Client IO #0/INFO]: Server protocol version 1
+[16:33:02] [Netty IO #1/INFO]: Client protocol version 1
+[16:33:02] [Netty IO #1/INFO]: Client attempting to join with 5 mods : Magicalness@1.0,Moreland@1.0,mcp@9.05,FML@7.10.18.1180,Forge@10.13.0.1180
+[16:33:02] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[16:33:02] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[16:33:02] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:33:02] [Client thread/INFO]: [Client thread] Client side modded connection established
+[16:33:02] [Server thread/INFO]: ForgeDevName[local:E:da0b1e18] logged in with entity id 179 at (1598.149354507804, 6.7803387100694, 254.5262128448844)
+[16:33:02] [Server thread/INFO]: ForgeDevName joined the game
+[16:33:04] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:05] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:06] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:07] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:07] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:07] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:08] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:08] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:08] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:09] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:09] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:09] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:09] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:10] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:16] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:16] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:17] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:19] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:21] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:22] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:23] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:24] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:27] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:27] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:31] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:32] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:34] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:34] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:34] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:35] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:40] [Server thread/INFO]: [ForgeDevName: Cleared the inventory of ForgeDevName, removing 52 items]
+[16:33:40] [Client thread/INFO]: [CHAT] Cleared the inventory of ForgeDevName, removing 52 items
+[16:33:40] [Server thread/INFO]: Saving and pausing game...
+[16:33:40] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[16:33:40] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[16:33:40] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[16:33:46] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:47] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:47] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:47] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:47] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:47] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:48] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:48] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:48] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:48] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:48] [Client thread/INFO]: [CHAT] You broke a block!
+[16:33:49] [Server thread/INFO]: Saving and pausing game...
+[16:33:49] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[16:33:50] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[16:33:50] [Server thread/INFO]: Saving chunks for level 'Test'/The End

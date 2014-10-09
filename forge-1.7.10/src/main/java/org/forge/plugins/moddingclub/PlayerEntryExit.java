@@ -1,9 +1,9 @@
 package org.forge.plugins.moddingclub;
 
-import net.minecraft.entity.item.EntityTNTPrimed;
-import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.PlayerEvent;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 public class PlayerEntryExit {
 	@SubscribeEvent

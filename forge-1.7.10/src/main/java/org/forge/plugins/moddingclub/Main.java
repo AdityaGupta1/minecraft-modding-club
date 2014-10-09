@@ -17,7 +17,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 public class Main {
 
 	public static String modid = "Moreland";
-//	public static Achievement boomTime = new Achievement("Boom Time!", "Craft a TNT and light it", AchievementList.killEnemy.displayColumn, AchievementList.killEnemy.displayRow + 2, Blocks.tnt, AchievementList.killEnemy);
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
@@ -27,6 +26,7 @@ public class Main {
         // MinecraftForge.EVENT_BUS.register(new AwardTNTAchievement());
 		// MinecraftForge.EVENT_BUS.register(new PlayerWelcome());
 		// FMLCommonHandler.instance().bus().register(new PlayerEntryExit());
+        // MinecraftForge.EVENT_BUS.register(new ShrineOfAwesomeness());
 		
 		// Disabled
 		// FMLCommonHandler.instance().bus().register(new ExplodeJoin());
@@ -36,8 +36,12 @@ public class Main {
 		MinecraftForge.EVENT_BUS.register(new RottenFleshZombie());
 		MinecraftForge.EVENT_BUS.register(new ZombieKnights());
 		MinecraftForge.EVENT_BUS.register(new MinecartExplode());
+		MinecraftForge.EVENT_BUS.register(new ArrowBarrage());
+		MinecraftForge.EVENT_BUS.register(new CreeperDoom());
+		MinecraftForge.EVENT_BUS.register(new ChatItems());
 		
 		// In Testing
-		MinecraftForge.EVENT_BUS.register(new ArrowBarrage());
+		MinecraftForge.EVENT_BUS.register(new BlockBreakChatMessage());
+		
 	}
 }
