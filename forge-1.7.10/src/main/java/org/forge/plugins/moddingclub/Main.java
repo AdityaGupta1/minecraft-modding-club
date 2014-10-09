@@ -24,7 +24,7 @@ public class Main {
 		// MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
 		// MinecraftForge.EVENT_BUS.register(new BlockMoney());
         // MinecraftForge.EVENT_BUS.register(new AwardTNTAchievement());
-		// MinecraftForge.EVENT_BUS.register(new PlayerWelcome());
+		// MinecraftForge.EVEN T_BUS.register(new PlayerWelcome());
 		// FMLCommonHandler.instance().bus().register(new PlayerEntryExit());
         // MinecraftForge.EVENT_BUS.register(new ShrineOfAwesomeness());
 		
@@ -39,9 +39,9 @@ public class Main {
 		MinecraftForge.EVENT_BUS.register(new ArrowBarrage());
 		MinecraftForge.EVENT_BUS.register(new CreeperDoom());
 		MinecraftForge.EVENT_BUS.register(new ChatItems());
+		MinecraftForge.EVENT_BUS.register(new BlockBreakChatMessage());
 		
 		// In Testing
-		MinecraftForge.EVENT_BUS.register(new BlockBreakChatMessage());
 		
 	}
 }
