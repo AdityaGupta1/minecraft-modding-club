@@ -30,13 +30,13 @@ public class Main {
 		
 		// Disabled
 		// FMLCommonHandler.instance().bus().register(new ExplodeJoin());
+		// MinecraftForge.EVENT_BUS.register(new ArrowBarrage());
 		
 		// Working
 		MinecraftForge.EVENT_BUS.register(new ZombieDroppingDiamonds());
 		MinecraftForge.EVENT_BUS.register(new RottenFleshZombie());
 		MinecraftForge.EVENT_BUS.register(new ZombieKnights());
 		MinecraftForge.EVENT_BUS.register(new MinecartExplode());
-		MinecraftForge.EVENT_BUS.register(new ArrowBarrage());
 		MinecraftForge.EVENT_BUS.register(new CreeperDoom());
 		MinecraftForge.EVENT_BUS.register(new ChatItems());
 		MinecraftForge.EVENT_BUS.register(new BlockBreakChatMessage());

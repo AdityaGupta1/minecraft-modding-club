@@ -37,3 +37,40 @@
 [16:37:14] [Client thread/INFO]: Applying holder lookups
 [16:37:14] [Client thread/INFO]: Holder lookups applied
 [16:37:15] [Sound Library Loader/INFO]: Sound engine started
+[16:37:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:37:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:37:18] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[16:37:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Moreland Minecraft Modding Club Mod
+[16:37:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:37:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:37:20] [Sound Library Loader/INFO]: Sound engine started
+[16:37:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:37:25] [Server thread/INFO]: Generating keypair
+[16:37:25] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:37:25] [Server thread/INFO]: Applying holder lookups
+[16:37:25] [Server thread/INFO]: Holder lookups applied
+[16:37:25] [Server thread/INFO]: Loading dimension 0 (Test) (net.minecraft.server.integrated.IntegratedServer@7a57739)
+[16:37:25] [Server thread/INFO]: Loading dimension 1 (Test) (net.minecraft.server.integrated.IntegratedServer@7a57739)
+[16:37:25] [Server thread/INFO]: Loading dimension -1 (Test) (net.minecraft.server.integrated.IntegratedServer@7a57739)
+[16:37:25] [Server thread/INFO]: Preparing start region for level 0
+[16:37:27] [Netty Client IO #0/INFO]: Server protocol version 1
+[16:37:27] [Netty IO #1/INFO]: Client protocol version 1
+[16:37:27] [Netty IO #1/INFO]: Client attempting to join with 5 mods : Magicalness@1.0,Moreland@1.0,mcp@9.05,FML@7.10.18.1180,Forge@10.13.0.1180
+[16:37:27] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[16:37:27] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[16:37:27] [Client thread/INFO]: [Client thread] Client side modded connection established
+[16:37:27] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:37:27] [Server thread/INFO]: ForgeDevName[local:E:4dce6ca5] logged in with entity id 180 at (1616.5892451141697, 4.0, 269.4354744879429)
+[16:37:27] [Server thread/INFO]: ForgeDevName joined the game
+[16:37:27] [Server thread/INFO]: Saving and pausing game...
+[16:37:27] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[16:37:27] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[16:37:27] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[16:37:38] [Server thread/INFO]: Saving and pausing game...
+[16:37:38] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[16:37:39] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[16:37:39] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[16:38:09] [Server thread/INFO]: Saving and pausing game...
+[16:38:09] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[16:38:09] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[16:38:09] [Server thread/INFO]: Saving chunks for level 'Test'/The End
